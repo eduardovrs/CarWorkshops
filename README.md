@@ -2,7 +2,7 @@
   <a rel="noopener" target="_blank"><img width="300" src="./src/assets/CarWorkshops.png" alt="CarWorkshops"></a>
 </p>
 
-**CarWorkshops** is an app that allows it's users to see all registeres car workshops and it's detailed information. it's also possible to refer a friend.
+**CarWorkshops** is an app that allows it's users to see all registered car workshops and it's detailed information. It's also possible to refer a friend.
 
 <div align="center">
 
@@ -37,7 +37,7 @@ $ cd CarWorkshops && yarn
 
 ## **Builds**
 
-To run the project locally you can run the following command:
+To run the project you can run the following command:
 
 ```sh
 $ yarn start
