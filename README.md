@@ -11,25 +11,48 @@
 
 </div>
 
-## Installation
+## **Installation**
+
+### First run the command git clone
+
+<br>
+
+**HTTPS:**
 
 ```sh
-// Clone this repository
-git clone https://github.com/eduardovrs/imhere.git
+$ git clone https://github.com/eduardovrs/CarWorkshops.git
+```
 
-// Install all dependencies
-yarn install
+**SSH:**
 
-// On iOS
-cd ios
-pod install
+```sh
+$ git clone git@github.com:eduardovrs/CarWorkshops.git
+```
 
-// Start the server
-yarn start
+**Go to the folder and run the command yarn to install all the dependencies**
 
-// Start the app
-yarn android
-yarn ios
+```sh
+$ cd CarWorkshops && yarn
+```
+
+## **Builds**
+
+To run the project locally you can run the following command:
+
+```sh
+$ yarn start
+```
+
+### **Android**
+
+```sh
+$ yarn android
+```
+
+### **iOS**
+
+```sh
+$ cd ios && pod install && cd .. && yarn ios
 ```
 
 # Author
